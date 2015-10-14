@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rebel Custom Computers</title>
+    <meta charset="UTF-8">
+    <header class="header">Configure Your Own Gaming PC</header>
+    <link rel="stylesheet" type="text/css" href="webPagePc.css"/>
+    <script type="text/javascript" src="webPagePc.js"></script>
+</head>
+<body background="carbonFiber.jpg" onload="webPagePc.init();">
+<img class="computerImageOne" src="title_01.png"><br/>
+
+<div>
+    <h1 class="choose">Use the pull-down menu's below to configure your own build.</h1>
+    <select class="choose" id="cpu" onclick="onCpu()">
+        <option class="choose" value="Choose CPU">Click here to choose CPU:</option>
+        <option class="choose" id="cpu1" value=""></option>
+        <option class="choose" id="cpu2" value=""></option>
+        <option class="choose" id="cpu3" value=""></option>
+        <option class="choose" id="cpu4" value=""></option>
+    </select>
+    <select class="choose" id="gpu" style="display: none" onclick="onGpu()">
+        <option class="choose">Choose a graphics card:</option>
+        <option class="choose" id="gpu1" style="display: block">Nvidia GTX 750 TI</option>
+        <option class="choose" id="gpu2" style="display: block">Nvidia GTX 950</option>
+        <option class="choose" id="gpu3" style="display: block">AMD R9-380</option>
+        <option class="choose" id="gpu4" style="display: block">AMD R9-390</option>
+        <option class="choose" id="gpu5" style="display: block">Nvidia GTX 980 TI</option>
+    </select>
+    <input type="button" id="cpuOption" value="Show other graphics cards" onclick="onShowGpu" style="display: none"></input>
+    <select class="choose" id="psu" style="display: none">
+        <option class="choose" id="psu1" style="display: block">Choose a power supply:</option>
+        <option class="choose" id="psu2" style="display: block">300W 80+ Bronze:</option>
+        <option class="choose" id="psu3" style="display: block">500W 80+ Bronze:</option>
+        <option class="choose" id="psu4" style="display: block">600W 80+ Bronze:</option>
+    </select>
+</div>
+</body>
+</html>
