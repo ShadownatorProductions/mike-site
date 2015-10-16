@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+.title{
+	font-size: 50px;
+	color: #0000FF;
+	text-align: center;
+}
+
+.imageMain{
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 500px;
+}
+
+.select{
+	font-size: 30px;
+	color: #A8A8A8;
+	padding: 0;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: none;
+	background: none;
+}
+
+.h1 {
+	font-size: 30px;
+	color: #484848;
+}
