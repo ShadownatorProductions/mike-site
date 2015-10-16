@@ -3,41 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="data.js"></script>
 <link rel="stylesheet" type="text/css" href="main.css">
 <title>Rebel Custom Computers</title>
-<header class="title">Rebel Custom Computers</header>
 </head>
 <body background="carbonFiber.jpg">
+<header class="title">Rebel Custom Computers</header>
 <img class="imageMain" src="title_01.png">
-<h1 class="h1">Configure your own custom computer:</h1>
-<select class="select" id="cpu" onclick="onCpu();">
-	<option id="cpuLabel" label="Choose a CPU" style="display: block"></option>
-	<option id="cpu1" label="Pentium G3258" value="Pentium G3258"></option>
-	<option id="cpu2" label="I3-4330" value="I3-4330"></option>
-	<option id="cpu3" label="I5-4590" value="I5-4590"></option>
-	<option id="cpu4" label="Xeon E3-1241 V3" value="Xeon E3-1241 V3"></option>
+<h1 class="h1">Configure your own custom computer:</h1> 
+<select class="select" id="cpu" onchange="onCpu();">
+	<option id="cpuLabel" style="display: block">Choose a CPU</option>
+	<option id="cpu1" value="Pentium G3258">Pentium G3258</option>
+	<option id="cpu2" value="I3-4330">I3-4330</option>
+	<option id="cpu3" value="I5-4590">I5-4590</option>
+	<option id="cpu4" value="Xeon E3-1241 V3">Xeon E3-1241 V3</option>
 </select>
-<select class="select" id="gpu" style="display: none" onclick="onGpu();">
-	<option id="gpuLabel" label="Choose a graphics card" style="display: block"></option>
-	<option id="gpu1" label="Nvidia GTX 750 TI 2gb" value="Nvidia GTX 750 TI 2gb" style="display: block"></option>
-	<option id="gpu2" label="Nvidia GTX 950 2gb" value="Nvidia GTX 950 2gb" style="display: block"></option>
-	<option id="gpu3" label="AMD R9-380 4gb" value="AMD R9-380 4gb" style="display: block"></option>
-	<option id="gpu4" label="AMD R9-390 8gb" value="AMD R9-390 8gb" style="display: block"></option>
-	<option id="gpu5" label="AMD R9-390X 8gb" value="AMD R9-390X 8gb" style="display: block"></option>
-	<option id="gpu6" label="Nvidia GTX 980 TI" value="Nvidia GTX 980 TI" style="display: block"></option>
+<select class="select" id="gpu" style="display: none" onchange="onGpu();">
+	<option id="gpuLabel" style="display: block">Choose a graphics card</option>
+	<option id="gpu1" value="Nvidia GTX 750 TI 2gb" style="display: block">Nvidia GTX 750 TI 2gb</option>
+	<option id="gpu2" value="Nvidia GTX 950 2gb" style="display: block">Nvidia GTX 950 2gb</option>
+	<option id="gpu3" value="AMD R9-380 4gb" style="display: block">AMD R9-380 4gb</option>
+	<option id="gpu4" value="AMD R9-390 8gb" style="display: block">AMD R9-390 8gb</option>
+	<option id="gpu5" value="AMD R9-390X 8gb" style="display: block">AMD R9-390X 8gb</option>
+	<option id="gpu6" value="Nvidia GTX 980 TI" style="display: block">Nvidia GTX 980 TI</option>
 </select>
 <select class="select" id="psu" style="display: none" onclick="onPsu();">
-	<option id="psuLabel" label="Choose a power supply" style="display: block"></option>
-	<option id="psu1" label="300 Watt 80+ Bronze" value="300 Watt 80+ Bronze" style="display: block"></option>
-	<option id="psu2" label="500 Watt 80+ Bronze" value="500 Watt 80+ Bronze" style="display: block"></option>
-	<option id="psu3" label="600 Watt 80+ Bronze" value="600 Watt 80+ Bronze" style="display: block"></option>
-	<option id="psu4" label="700 Watt 80+ Bronze" value="700 Watt 80+ Bronze" style="display: block"></option>
+	<option id="psuLabel" style="display: block">Choose a power supply</option>
+	<option id="psu1" value="300 Watt 80+ Bronze" style="display: block">300 Watt 80+ Bronze</option>
+	<option id="psu2" value="500 Watt 80+ Bronze" style="display: block">500 Watt 80+ Bronze</option>
+	<option id="psu3" value="600 Watt 80+ Bronze" style="display: block">600 Watt 80+ Bronze</option>
+	<option id="psu4" value="700 Watt 80+ Bronze" style="display: block">700 Watt 80+ Bronze</option>
 </select>
-<select class="select" id="ram" style="display: none" onclick="onRam();">
-	<option id="ramLabel" label="Choose RAM" style="display: block"></option>
-	<option id="ram1" label="4gb DDR3 1600 single channel" value="4gb DDR3 1600 single channel" style="display: block"></option>
-	<option id="ram2" label="8gb DDR3 1600 dual channel" value="8gb DDR3 1600 dual channel" style="display: block"></option>
-	<option id="ram3" label="16gb DDR3 1600 dual channel" value="16gb DDR3 1600 dual channel" style="display: block"></option>
+<select class="select" id="ram" style="display: none" onchange="onRam();">
+	<option id="ramLabel" style="display: block">Choose RAM</option>
+	<option id="ram1" value="4gb DDR3 1600 single channel" style="display: block">4gb DDR3 1600 single channel</option>
+	<option id="ram2" value="8gb DDR3 1600 dual channel" style="display: block">8gb DDR3 1600 dual channel</option>
+	<option id="ram3" value="16gb DDR3 1600 dual channel" style="display: block">16gb DDR3 1600 dual channel</option>
 </select>
 </body>
 </html>
