@@ -1,3 +1,51 @@
+jQuery(function () {
+    objMike.arrMenus = jQuery(".select");
+	objMike.renderCPU();
+});
+
+var objMike = objMike || {};
+
+objMike.addEvents = function () {
+	objMike.arrMenus.change(function(e) {
+		switch (objMike.arrMenus.index(jQuery(this))) {
+			case 0:
+				objMike.changeCPU();
+				break;
+			case 1:
+				objMike.changeGPU();
+				break;
+		}
+	});
+};
+
+objMike.renderCPU = function() {
+	var strHTML = '<option value="label">Choose a CPU</option>';
+	for (i = 0; i < data.processors.length; i++) {
+		strHTML += '<option value="' + data.processors[i].name + '">' + data.processors[i].name + '</option>';
+	}
+	objMike.arrMenus.eq(0).html(strHTML);
+	objMike.addEvents();
+};
+
+objMike.renderGPU = function(numCPU) {
+	var strHTML = '<option value="label">Choose a GPU</option>';
+	if (numCPU !== 0) {
+		for (i = 0; i < data.processors[numCPU - 1].graphics.length; i++) {
+			strHTML += '<option value="' + data.processors[numCPU - 1].graphics[i].name + '">' + data.processors[numCPU - 1].graphics[i].name + '</option>';
+		}
+		objMike.arrMenus.eq(1).html(strHTML);
+		objMike.arrMenus.eq(1).addClass("active");
+	}
+};
+
+objMike.changeCPU = function() {
+	objMike.arrMenus.slice(1).removeClass("active");
+	objMike.renderGPU(objMike.arrMenus.eq(0)[0].selectedIndex);
+};
+
+objMike.changeGPU = function() {
+	console.log(objMike.arrMenus.eq(1)[0].selectedIndex);
+};
 
 function onCpu() {
 	getCpu = document.getElementById("cpu").value;

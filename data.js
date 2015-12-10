@@ -5,21 +5,13 @@ var data = {
             "graphics": [
                 {
                     "name": "Nvidia GTX 750 TI 2gb",
-                    "power": [
-                        {
-                            "name": "300 Watt 80+ Bronze",
-                            "ram": "I recommend 4 GB or more."
-                        }
-                    ]
+                    "power": ["300 Watt 80+ Bronze", "500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["4gb DDR3 1600 single channel", "8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "Nvidia GTX 950 2gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 }
             ]
         },
@@ -28,30 +20,18 @@ var data = {
             "graphics": [
                 {
                     "name": "Nvidia GTX 750 TI 2gb",
-                    "power": [
-                        {
-                            "name": "300 Watt 80+ Bronze",
-                            "ram": "I recommend 4 GB or more."
-                        }
-                    ]
+                    "power": ["300 Watt 80+ Bronze", "500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["4gb DDR3 1600 single channel", "8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "Nvidia GTX 950 2gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-380 4gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 }
             ]
         },
@@ -60,48 +40,28 @@ var data = {
             "graphics": [
                 {
                     "name": "Nvidia GTX 750 TI 2gb",
-                    "power": [
-                        {
-                            "name": "300 Watt 80+ Bronze",
-                            "ram": "I recommend 4 GB or more."
-                        }
-                    ]
+                    "power": ["300 Watt 80+ Bronze", "500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["4gb DDR3 1600 single channel", "8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "Nvidia GTX 950 2gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-380 4gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-390 8gb",
-                    "power": [
-                        {
-                            "name": "600 Watt 80+ Bronze",
-                            "ram": "I recommend 8 GB or more."
-                        }
-                    ]
+                    "power": ["600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-390X 8gb",
-                    "power": [
-                        {
-                            "name": "700 Watt 80+ Bronze",
-                            "ram": "I recommend 12 GB or more."
-                        }
-                    ]
+                    "power": ["700 Watt 80+ Bronze"],
+                    "ram": ["16gb DDR3 1600 dual channel"]
                 }
             ]
         },
@@ -110,57 +70,33 @@ var data = {
             "graphics": [
                 {
                     "name": "Nvidia GTX 750 TI 2gb",
-                    "power": [
-                        {
-                            "name": "300 Watt 80+ Bronze",
-                            "ram": "I recommend 4 GB or more."
-                        }
-                    ]
+                    "power": ["300 Watt 80+ Bronze", "500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["4gb DDR3 1600 single channel", "8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "Nvidia GTX 950 2gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-380 4gb",
-                    "power": [
-                        {
-                            "name": "500 Watt 80+ Bronze",
-                            "ram": "I recommend 6 GB or more."
-                        }
-                    ]
+                    "power": ["500 Watt 80+ Bronze", "600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-390 8gb",
-                    "power": [
-                        {
-                            "name": "600 Watt 80+ Bronze",
-                            "ram": "I recommend 8 GB or more."
-                        }
-                    ]
+                    "power": ["600 Watt 80+ Bronze", "700 Watt 80+ Bronze"],
+                    "ram": ["8gb DDR3 1600 dual channel", "16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "AMD R9-390X 8gb",
-                    "power": [
-                        {
-                            "name": "700 Watt 80+ Bronze",
-                            "ram": "I recommend 12 GB or more."
-                        }
-                    ]
+                    "power": ["700 Watt 80+ Bronze"],
+                    "ram": ["16gb DDR3 1600 dual channel"]
                 },
                 {
                     "name": "Nvidia GTX 980 TI",
-                    "power": [
-                        {
-                            "name": "700 Watt 80+ Bronze",
-                            "ram": "I recommend 12 GB or more."
-                        }
-                    ]
+                    "power": ["700 Watt 80+ Bronze"],
+                    "ram": ["16gb DDR3 1600 dual channel"]
                 }
             ]
         }
